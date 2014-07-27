@@ -20,8 +20,8 @@ Step by step through run_analisys.R
 ------------------------------------
 * First program install and load all needed packages. Such  as reshape or plyr. 
 * Then program read all needed data. It is 11 files. 4 are from test, and 4 are from train. 2 are labels. and one contain the names of variables.
-*Then this program add data to each other. First it connect train and test data together useing function rbind. Then it connect subjects and activity with test and training data.
-*Then it add labels to activity. 
-*Then it add names (from features) to all of the variables. And then add name for "subject" and "activity".
-*Then it takes the mean and standard variations as a measure.
-*Then it create new tidy data with the mean of mean and standard deviations for all subject and activity and all variables. 
+* Then this program add data to each other. First it connect train and test data together useing function rbind. Then it connect subjects and activity with test and training data.
+* Then it add labels to activity. 
+* Then it add names (from features) to all of the variables. And then add name for "subject" and "activity".
+* Then it takes the mean and standard variations as a measure.
+* Then it create new tidy data with the mean of mean and standard deviations for all subject and activity and all variables. 
