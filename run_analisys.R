@@ -1,4 +1,3 @@
-setwd("D:/studia/RProgramming/DC/projekt")
 ## instal needed packages
 install.packages("reshape")
 library(reshape)
