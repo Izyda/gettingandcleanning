@@ -26,169 +26,320 @@ Description of data from end.txt
   6. LAYING
 
 
-"tBodyAcc-mean()-X"  
+* "tBodyAcc-mean()-X" 9  
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
+* "tBodyAcc-mean()-Y" 9
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
+* "tBodyAcc-mean()-Z" 9
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
+* "tGravityAcc-mean()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAcc-mean()-Y"
+* "tGravityAcc-mean()-Y" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAcc-mean()-Z"
+* "tGravityAcc-mean()-Z"  9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tGravityAcc-mean()-X"  
+* "tBodyAccJerk-mean()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
 
-"tGravityAcc-mean()-Y" 
+* "tBodyAccJerk-mean()-Y" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tGravityAcc-mean()-Z"  
+* "tBodyAccJerk-mean()-Z" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAccJerk-mean()-X" 
+* "tBodyGyro-mean()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
+* "tBodyGyro-mean()-Y" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAccJerk-mean()-Y" 
+* "tBodyGyro-mean()-Z"  9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAccJerk-mean()-Z" 
+* "tBodyGyroJerk-mean()-X"   9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyro-mean()-X" 
 
-"tBodyGyro-mean()-Y" 
+* "tBodyGyroJerk-mean()-Y" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyro-mean()-Z"  
+* "tBodyGyroJerk-mean()-Z" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroJerk-mean()-X"   
+* "tBodyAccMag-mean()" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
+* "tGravityAccMag-mean()"  9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroJerk-mean()-Y"
+* "tBodyAccJerkMag-mean()" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroJerk-mean()-Z"
+* "tBodyGyroMag-mean()"   9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000  
 
-"tBodyAccMag-mean()" 
 
-"tGravityAccMag-mean()"  
+* "tBodyGyroJerkMag-mean()" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAccJerkMag-mean()" 
+* "fBodyAcc-mean()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroMag-mean()"    
+* "fBodyAcc-mean()-Y"  9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
+* "fBodyAcc-mean()-Z" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroJerkMag-mean()"
+* "fBodyAcc-meanFreq()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAcc-mean()-X" 
+* "fBodyAcc-meanFreq()-Y" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAcc-mean()-Y"  
 
-"fBodyAcc-mean()-Z" 
+* "fBodyAcc-meanFreq()-Z" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAcc-meanFreq()-X" 
+* "fBodyAccJerk-mean()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAcc-meanFreq()-Y"
+* "fBodyAccJerk-mean()-Y" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
 
-"fBodyAcc-meanFreq()-Z" 
+* "fBodyAccJerk-mean()-Z" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccJerk-mean()-X" 
+* "fBodyAccJerk-meanFreq()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccJerk-mean()-Y" 
+* "fBodyAccJerk-meanFreq()-Y"  9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
+* "fBodyAccJerk-meanFreq()-Z" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccJerk-mean()-Z" 
+* "fBodyGyro-mean()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccJerk-meanFreq()-X" 
+* "fBodyGyro-mean()-Y" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccJerk-meanFreq()-Y"  
 
-"fBodyAccJerk-meanFreq()-Z"
+* "fBodyGyro-mean()-Z" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyGyro-mean()-X"
+* "fBodyGyro-meanFreq()-X" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyGyro-mean()-Y"
+* "fBodyGyro-meanFreq()-Y"9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
+* "fBodyGyro-meanFreq()-Z" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyGyro-mean()-Z"
+* "fBodyAccMag-mean()" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyGyro-meanFreq()-X" 
+* "fBodyAccMag-meanFreq()" 9 
+    Mean of mean value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyGyro-meanFreq()-Y"
+* "fBodyBodyAccJerkMag-mean()"9 
+    Mean of mean value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyGyro-meanFreq()-Z"
+* "fBodyBodyAccJerkMag-meanFreq()" 9 
+    Mean of mean value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccMag-mean()"
+* "fBodyBodyGyroMag-mean()" 9 
+    Mean of mean value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccMag-meanFreq()" 
+* "fBodyBodyGyroMag-meanFreq()" 9 
+    Mean of mean value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyBodyAccJerkMag-mean()"
+* "fBodyBodyGyroJerkMag-mean()" 9 
+    Mean of mean value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyBodyAccJerkMag-meanFreq()"
+* "fBodyBodyGyroJerkMag-meanFreq()" 9 
+    Mean of mean value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyBodyGyroMag-mean()"
+"tBodyAcc-std()-X"  9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
+"tBodyAcc-std()-Y" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyBodyGyroMag-meanFreq()"
+"tBodyAcc-std()-Z"  9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000  
 
-"fBodyBodyGyroJerkMag-mean()" 
+"tGravityAcc-std()-X" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyBodyGyroJerkMag-meanFreq()"
+"tGravityAcc-std()-Y"  9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000  
 
-"tBodyAcc-std()-X"  
+"tGravityAcc-std()-Z" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAcc-std()-Y"
+"tBodyAccJerk-std()-X" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAcc-std()-Z"   
+"tBodyAccJerk-std()-Y" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tGravityAcc-std()-X" 
+"tBodyAccJerk-std()-Z"  9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tGravityAcc-std()-Y"   
+"tBodyGyro-std()-X" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tGravityAcc-std()-Z"
+"tBodyGyro-std()-Y" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAccJerk-std()-X" 
+"tBodyGyro-std()-Z" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAccJerk-std()-Y" 
+"tBodyGyroJerk-std()-X" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000  
 
-"tBodyAccJerk-std()-Z"  
+"tBodyGyroJerk-std()-Y" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyro-std()-X" 
+"tBodyGyroJerk-std()-Z" 9
+    Mean of standard deviation value of the body linear acceleration and angular velocity
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyro-std()-Y"
+"tBodyAccMag-std()" 9
+    Mean of standard deviation value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyro-std()-Z" 
+"tGravityAccMag-std()" 9
+    Mean of standard deviation value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroJerk-std()-X"  
+"tBodyAccJerkMag-std()" 9
+    Mean of standard deviation value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroJerk-std()-Y" 
+"tBodyGyroMag-std()" 9
+    Mean of standard deviation value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroJerk-std()-Z" 
+"tBodyGyroJerkMag-std()"9
+    Mean of standard deviation value of the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAccMag-std()"
+"fBodyAcc-std()-X"   9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"tGravityAccMag-std()" 
+"fBodyAcc-std()-Y"   9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyAccJerkMag-std()" 
+"fBodyAcc-std()-Z" 9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"tBodyGyroMag-std()" 
+"fBodyAccJerk-std()-X"  9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000  
 
-"tBodyGyroJerkMag-std()"
+"fBodyAccJerk-std()-Y"    9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAcc-std()-X"   
+"fBodyAccJerk-std()-Z"  9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAcc-std()-Y"   
+"fBodyGyro-std()-X"  9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAcc-std()-Z"
+"fBodyGyro-std()-Y" 9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccJerk-std()-X"   
+"fBodyGyro-std()-Z" 9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccJerk-std()-Y"    
+"fBodyAccMag-std()" 9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyAccJerk-std()-Z"  
+"fBodyBodyAccJerkMag-std()"  9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
-"fBodyGyro-std()-X"  
-
-"fBodyGyro-std()-Y"
-
-"fBodyGyro-std()-Z" 
-
-"fBodyAccMag-std()"
-
-"fBodyBodyAccJerkMag-std()" 
-
-"fBodyBodyGyroMag-std()"
+"fBodyBodyGyroMag-std()" 9
+    Mean of standard deviation value of the Fast Fourier Transform (FFT)
+    -1..1 .0.0000000 to 1.00000000 
 
 Description of all sourced data.
 --------------------------------
