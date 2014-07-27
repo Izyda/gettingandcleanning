@@ -37,21 +37,6 @@ for (i in 1:nrow(Y)){
     Y[i,]=l[6]
   } 
 }
-for (i in 1:nrow(sub)){
-  if (Y[i,]==1){
-    Y[i,]=l[1]
-  }else if (Y[i,]==2){
-    Y[i,]=l[2]
-  }else if (Y[i,]==3){
-    Y[i,]=l[3]
-  }else if (Y[i,]==4){
-    Y[i,]=l[4]
-  }else if (Y[i,]==5){
-    Y[i,]=l[5]
-  } else if (Y[i,]==6){
-    Y[i,]=l[6]
-  } 
-}
 pol<-cbind(pol,sub)
 pol<-cbind(pol,Y)
 colnames(pol)<-features[,2]
@@ -71,7 +56,7 @@ install.packages("reshape2")
 library(reshape2)
 i=22
 t=c()
-for (i in 1:ncol(pol)-2){
+for (i in 1:length(kolejne)){
 tidied <- dcast(change, subject + activity ~ kolejne[i] , mean)
 t<-rbind(t,tidied)
 }

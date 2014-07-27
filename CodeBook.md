@@ -69,27 +69,38 @@ Autorregresion coefficients with Burg order equal to 4.
 correlation coefficient between two signals 
 -1..1 .0.0000000 to 1.00000000       
 
-"tGravityAcc-mean()-X"                 "tGravityAcc-mean()-Y"                
- [43] "tGravityAcc-mean()-Z"
+"tGravityAcc-mean()-X"  "tGravityAcc-mean()-Y" "tGravityAcc-mean()-Z"
 
-                 "tGravityAcc-std()-X"                  "tGravityAcc-std()-Y"                 
- [46] "tGravityAcc-std()-Z"                  "tGravityAcc-mad()-X"                  "tGravityAcc-mad()-Y"                 
- [49] "tGravityAcc-mad()-Z"                  "tGravityAcc-max()-X"                  "tGravityAcc-max()-Y"                 
- [52] "tGravityAcc-max()-Z"                  "tGravityAcc-min()-X"                  "tGravityAcc-min()-Y"                 
- [55] "tGravityAcc-min()-Z"                  "tGravityAcc-sma()"                    "tGravityAcc-energy()-X"              
- [58] "tGravityAcc-energy()-Y"               "tGravityAcc-energy()-Z"               "tGravityAcc-iqr()-X"                 
- [61] "tGravityAcc-iqr()-Y"                  "tGravityAcc-iqr()-Z"                  "tGravityAcc-entropy()-X"             
- [64] "tGravityAcc-entropy()-Y"              "tGravityAcc-entropy()-Z"              "tGravityAcc-arCoeff()-X,1"           
- [67] "tGravityAcc-arCoeff()-X,2"            "tGravityAcc-arCoeff()-X,3"            "tGravityAcc-arCoeff()-X,4"           
- [70] "tGravityAcc-arCoeff()-Y,1"            "tGravityAcc-arCoeff()-Y,2"            "tGravityAcc-arCoeff()-Y,3"           
- [73] "tGravityAcc-arCoeff()-Y,4"            "tGravityAcc-arCoeff()-Z,1"            "tGravityAcc-arCoeff()-Z,2"           
- [76] "tGravityAcc-arCoeff()-Z,3"            "tGravityAcc-arCoeff()-Z,4"            "tGravityAcc-correlation()-X,Y"       
- [79] "tGravityAcc-correlation()-X,Z"        "tGravityAcc-correlation()-Y,Z"        "tBodyAccJerk-mean()-X"               
- [82] "tBodyAccJerk-mean()-Y"                "tBodyAccJerk-mean()-Z"                "tBodyAccJerk-std()-X"                
- [85] "tBodyAccJerk-std()-Y"                 "tBodyAccJerk-std()-Z"                 "tBodyAccJerk-mad()-X"                
- [88] "tBodyAccJerk-mad()-Y"                 "tBodyAccJerk-mad()-Z"                 "tBodyAccJerk-max()-X"                
- [91] "tBodyAccJerk-max()-Y"                 "tBodyAccJerk-max()-Z"                 "tBodyAccJerk-min()-X"                
- [94] "tBodyAccJerk-min()-Y"                 "tBodyAccJerk-min()-Z"                 "tBodyAccJerk-sma()"                  
+
+"tGravityAcc-std()-X"  "tGravityAcc-std()-Y" "tGravityAcc-std()-Z"                 
+
+"tGravityAcc-mad()-X" "tGravityAcc-mad()-Y"  "tGravityAcc-mad()-Z"
+
+"tGravityAcc-max()-X"  "tGravityAcc-max()-Y"  "tGravityAcc-max()-Z" 
+
+"tGravityAcc-min()-X" "tGravityAcc-min()-Y"  "tGravityAcc-min()-Z"  
+
+"tGravityAcc-sma()"
+
+"tGravityAcc-energy()-X"  "tGravityAcc-energy()-Y"  "tGravityAcc-energy()-Z"
+
+"tGravityAcc-iqr()-X"  "tGravityAcc-iqr()-Y"  "tGravityAcc-iqr()-Z"
+
+"tGravityAcc-entropy()-X" "tGravityAcc-entropy()-Y"   "tGravityAcc-entropy()-Z"    
+
+"tGravityAcc-arCoeff()-X,1" "tGravityAcc-arCoeff()-X,2" "tGravityAcc-arCoeff()-X,3"            "tGravityAcc-arCoeff()-X,4" "tGravityAcc-arCoeff()-Y,1" "tGravityAcc-arCoeff()-Y,2"            "tGravityAcc-arCoeff()-Y,3" "tGravityAcc-arCoeff()-Y,4" "tGravityAcc-arCoeff()-Z,1"            "tGravityAcc-arCoeff()-Z,2" "tGravityAcc-arCoeff()-Z,3" "tGravityAcc-arCoeff()-Z,4" 
+
+"tGravityAcc-correlation()-X,Y"  "tGravityAcc-correlation()-X,Z"  "tGravityAcc-correlation()-Y,Z"
+
+"tBodyAccJerk-mean()-X" "tBodyAccJerk-mean()-Y" "tBodyAccJerk-mean()-Z" 
+
+"tBodyAccJerk-std()-X" "tBodyAccJerk-std()-Y" "tBodyAccJerk-std()-Z" 
+
+"tBodyAccJerk-mad()-X" "tBodyAccJerk-mad()-Y"  "tBodyAccJerk-mad()-Z" 
+
+"tBodyAccJerk-max()-X" "tBodyAccJerk-max()-Y"   "tBodyAccJerk-max()-Z" 
+
+"tBodyAccJerk-min()-X" "tBodyAccJerk-min()-Y"                 "tBodyAccJerk-min()-Z"                 "tBodyAccJerk-sma()"                  
  [97] "tBodyAccJerk-energy()-X"              "tBodyAccJerk-energy()-Y"              "tBodyAccJerk-energy()-Z"             
 [100] "tBodyAccJerk-iqr()-X"                 "tBodyAccJerk-iqr()-Y"                 "tBodyAccJerk-iqr()-Z"                
 [103] "tBodyAccJerk-entropy()-X"             "tBodyAccJerk-entropy()-Y"             "tBodyAccJerk-entropy()-Z"            
