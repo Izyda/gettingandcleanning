@@ -58,6 +58,6 @@ i=22
 t=c()
 for (i in 1:length(kolejne)){
 tidied <- dcast(change, subject + activity ~ kolejne[i] , mean)
-t<-rbind(t,tidied)
+t<-list(t,tidied)
 }
-write.table(t, file="end2.txt")
+write.table(t, file="end3.txt")
