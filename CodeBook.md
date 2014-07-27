@@ -100,62 +100,162 @@ correlation coefficient between two signals
 
 "tBodyAccJerk-max()-X" "tBodyAccJerk-max()-Y"   "tBodyAccJerk-max()-Z" 
 
-"tBodyAccJerk-min()-X" "tBodyAccJerk-min()-Y"                 "tBodyAccJerk-min()-Z"                 "tBodyAccJerk-sma()"                  
- [97] "tBodyAccJerk-energy()-X"              "tBodyAccJerk-energy()-Y"              "tBodyAccJerk-energy()-Z"             
-[100] "tBodyAccJerk-iqr()-X"                 "tBodyAccJerk-iqr()-Y"                 "tBodyAccJerk-iqr()-Z"                
-[103] "tBodyAccJerk-entropy()-X"             "tBodyAccJerk-entropy()-Y"             "tBodyAccJerk-entropy()-Z"            
-[106] "tBodyAccJerk-arCoeff()-X,1"           "tBodyAccJerk-arCoeff()-X,2"           "tBodyAccJerk-arCoeff()-X,3"          
-[109] "tBodyAccJerk-arCoeff()-X,4"           "tBodyAccJerk-arCoeff()-Y,1"           "tBodyAccJerk-arCoeff()-Y,2"          
-[112] "tBodyAccJerk-arCoeff()-Y,3"           "tBodyAccJerk-arCoeff()-Y,4"           "tBodyAccJerk-arCoeff()-Z,1"          
-[115] "tBodyAccJerk-arCoeff()-Z,2"           "tBodyAccJerk-arCoeff()-Z,3"           "tBodyAccJerk-arCoeff()-Z,4"          
-[118] "tBodyAccJerk-correlation()-X,Y"       "tBodyAccJerk-correlation()-X,Z"       "tBodyAccJerk-correlation()-Y,Z"      
-[121] "tBodyGyro-mean()-X"                   "tBodyGyro-mean()-Y"                   "tBodyGyro-mean()-Z"                  
-[124] "tBodyGyro-std()-X"                    "tBodyGyro-std()-Y"                    "tBodyGyro-std()-Z"                   
-[127] "tBodyGyro-mad()-X"                    "tBodyGyro-mad()-Y"                    "tBodyGyro-mad()-Z"                   
-[130] "tBodyGyro-max()-X"                    "tBodyGyro-max()-Y"                    "tBodyGyro-max()-Z"                   
-[133] "tBodyGyro-min()-X"                    "tBodyGyro-min()-Y"                    "tBodyGyro-min()-Z"                   
-[136] "tBodyGyro-sma()"                      "tBodyGyro-energy()-X"                 "tBodyGyro-energy()-Y"                
-[139] "tBodyGyro-energy()-Z"                 "tBodyGyro-iqr()-X"                    "tBodyGyro-iqr()-Y"                   
-[142] "tBodyGyro-iqr()-Z"                    "tBodyGyro-entropy()-X"                "tBodyGyro-entropy()-Y"               
-[145] "tBodyGyro-entropy()-Z"                "tBodyGyro-arCoeff()-X,1"              "tBodyGyro-arCoeff()-X,2"             
-[148] "tBodyGyro-arCoeff()-X,3"              "tBodyGyro-arCoeff()-X,4"              "tBodyGyro-arCoeff()-Y,1"             
-[151] "tBodyGyro-arCoeff()-Y,2"              "tBodyGyro-arCoeff()-Y,3"              "tBodyGyro-arCoeff()-Y,4"             
-[154] "tBodyGyro-arCoeff()-Z,1"              "tBodyGyro-arCoeff()-Z,2"              "tBodyGyro-arCoeff()-Z,3"             
-[157] "tBodyGyro-arCoeff()-Z,4"              "tBodyGyro-correlation()-X,Y"          "tBodyGyro-correlation()-X,Z"         
-[160] "tBodyGyro-correlation()-Y,Z"          "tBodyGyroJerk-mean()-X"               "tBodyGyroJerk-mean()-Y"              
-[163] "tBodyGyroJerk-mean()-Z"               "tBodyGyroJerk-std()-X"                "tBodyGyroJerk-std()-Y"               
-[166] "tBodyGyroJerk-std()-Z"                "tBodyGyroJerk-mad()-X"                "tBodyGyroJerk-mad()-Y"               
-[169] "tBodyGyroJerk-mad()-Z"                "tBodyGyroJerk-max()-X"                "tBodyGyroJerk-max()-Y"               
-[172] "tBodyGyroJerk-max()-Z"                "tBodyGyroJerk-min()-X"                "tBodyGyroJerk-min()-Y"               
-[175] "tBodyGyroJerk-min()-Z"                "tBodyGyroJerk-sma()"                  "tBodyGyroJerk-energy()-X"            
-[178] "tBodyGyroJerk-energy()-Y"             "tBodyGyroJerk-energy()-Z"             "tBodyGyroJerk-iqr()-X"               
-[181] "tBodyGyroJerk-iqr()-Y"                "tBodyGyroJerk-iqr()-Z"                "tBodyGyroJerk-entropy()-X"           
-[184] "tBodyGyroJerk-entropy()-Y"            "tBodyGyroJerk-entropy()-Z"            "tBodyGyroJerk-arCoeff()-X,1"         
-[187] "tBodyGyroJerk-arCoeff()-X,2"          "tBodyGyroJerk-arCoeff()-X,3"          "tBodyGyroJerk-arCoeff()-X,4"         
-[190] "tBodyGyroJerk-arCoeff()-Y,1"          "tBodyGyroJerk-arCoeff()-Y,2"          "tBodyGyroJerk-arCoeff()-Y,3"         
-[193] "tBodyGyroJerk-arCoeff()-Y,4"          "tBodyGyroJerk-arCoeff()-Z,1"          "tBodyGyroJerk-arCoeff()-Z,2"         
-[196] "tBodyGyroJerk-arCoeff()-Z,3"          "tBodyGyroJerk-arCoeff()-Z,4"          "tBodyGyroJerk-correlation()-X,Y"     
-[199] "tBodyGyroJerk-correlation()-X,Z"      "tBodyGyroJerk-correlation()-Y,Z"      "tBodyAccMag-mean()"                  
-[202] "tBodyAccMag-std()"                    "tBodyAccMag-mad()"                    "tBodyAccMag-max()"                   
-[205] "tBodyAccMag-min()"                    "tBodyAccMag-sma()"                    "tBodyAccMag-energy()"                
-[208] "tBodyAccMag-iqr()"                    "tBodyAccMag-entropy()"                "tBodyAccMag-arCoeff()1"              
-[211] "tBodyAccMag-arCoeff()2"               "tBodyAccMag-arCoeff()3"               "tBodyAccMag-arCoeff()4"              
-[214] "tGravityAccMag-mean()"                "tGravityAccMag-std()"                 "tGravityAccMag-mad()"                
-[217] "tGravityAccMag-max()"                 "tGravityAccMag-min()"                 "tGravityAccMag-sma()"                
-[220] "tGravityAccMag-energy()"              "tGravityAccMag-iqr()"                 "tGravityAccMag-entropy()"            
-[223] "tGravityAccMag-arCoeff()1"            "tGravityAccMag-arCoeff()2"            "tGravityAccMag-arCoeff()3"           
-[226] "tGravityAccMag-arCoeff()4"            "tBodyAccJerkMag-mean()"               "tBodyAccJerkMag-std()"               
-[229] "tBodyAccJerkMag-mad()"                "tBodyAccJerkMag-max()"                "tBodyAccJerkMag-min()"               
-[232] "tBodyAccJerkMag-sma()"                "tBodyAccJerkMag-energy()"             "tBodyAccJerkMag-iqr()"               
-[235] "tBodyAccJerkMag-entropy()"            "tBodyAccJerkMag-arCoeff()1"           "tBodyAccJerkMag-arCoeff()2"          
-[238] "tBodyAccJerkMag-arCoeff()3"           "tBodyAccJerkMag-arCoeff()4"           "tBodyGyroMag-mean()"                 
-[241] "tBodyGyroMag-std()"                   "tBodyGyroMag-mad()"                   "tBodyGyroMag-max()"                  
-[244] "tBodyGyroMag-min()"                   "tBodyGyroMag-sma()"                   "tBodyGyroMag-energy()"               
-[247] "tBodyGyroMag-iqr()"                   "tBodyGyroMag-entropy()"               "tBodyGyroMag-arCoeff()1"             
-[250] "tBodyGyroMag-arCoeff()2"              "tBodyGyroMag-arCoeff()3"              "tBodyGyroMag-arCoeff()4"             
-[253] "tBodyGyroJerkMag-mean()"              "tBodyGyroJerkMag-std()"               "tBodyGyroJerkMag-mad()"              
-[256] "tBodyGyroJerkMag-max()"               "tBodyGyroJerkMag-min()"               "tBodyGyroJerkMag-sma()"              
-[259] "tBodyGyroJerkMag-energy()"            "tBodyGyroJerkMag-iqr()"               "tBodyGyroJerkMag-entropy()"          
+"tBodyAccJerk-min()-X" "tBodyAccJerk-min()-Y"                 "tBodyAccJerk-min()-Z"  
+
+"tBodyAccJerk-sma()"
+
+"tBodyAccJerk-energy()-X"              "tBodyAccJerk-energy()-Y"              "tBodyAccJerk-energy()-Z" 
+
+"tBodyAccJerk-iqr()-X"                 "tBodyAccJerk-iqr()-Y"                 "tBodyAccJerk-iqr()-Z"
+
+
+"tBodyAccJerk-entropy()-X"             "tBodyAccJerk-entropy()-Y"             "tBodyAccJerk-entropy()-Z" 
+
+
+"tBodyAccJerk-arCoeff()-X,1"           "tBodyAccJerk-arCoeff()-X,2"           "tBodyAccJerk-arCoeff()-X,3" "tBodyAccJerk-arCoeff()-X,4"           "tBodyAccJerk-arCoeff()-Y,1"           "tBodyAccJerk-arCoeff()-Y,2"  "tBodyAccJerk-arCoeff()-Y,3"           "tBodyAccJerk-arCoeff()-Y,4"           "tBodyAccJerk-arCoeff()-Z,1"   "tBodyAccJerk-arCoeff()-Z,2"           "tBodyAccJerk-arCoeff()-Z,3"           "tBodyAccJerk-arCoeff()-Z,4"   
+
+"tBodyAccJerk-correlation()-X,Y"       "tBodyAccJerk-correlation()-X,Z"       "tBodyAccJerk-correlation()-Y,Z"  
+
+"tBodyGyro-mean()-X"                   "tBodyGyro-mean()-Y"                   "tBodyGyro-mean()-Z"                  
+
+"tBodyGyro-std()-X"                    "tBodyGyro-std()-Y"                    "tBodyGyro-std()-Z"                   
+
+"tBodyGyro-mad()-X"                    "tBodyGyro-mad()-Y"                    "tBodyGyro-mad()-Z"                   
+
+"tBodyGyro-max()-X"                    "tBodyGyro-max()-Y"                    "tBodyGyro-max()-Z"                   
+
+"tBodyGyro-min()-X"                    "tBodyGyro-min()-Y"                    "tBodyGyro-min()-Z"                   
+
+"tBodyGyro-sma()"                      
+
+"tBodyGyro-energy()-X"                 "tBodyGyro-energy()-Y"      "tBodyGyro-energy()-Z"   
+
+"tBodyGyro-iqr()-X"                    "tBodyGyro-iqr()-Y"            "tBodyGyro-iqr()-Z"                    
+
+"tBodyGyro-entropy()-X"                "tBodyGyro-entropy()-Y"   "tBodyGyro-entropy()-Z"                
+
+"tBodyGyro-arCoeff()-X,1"              "tBodyGyro-arCoeff()-X,2"    "tBodyGyro-arCoeff()-X,3"              "tBodyGyro-arCoeff()-X,4"              "tBodyGyro-arCoeff()-Y,1"    "tBodyGyro-arCoeff()-Y,2"              "tBodyGyro-arCoeff()-Y,3"              "tBodyGyro-arCoeff()-Y,4"    "tBodyGyro-arCoeff()-Z,1"              "tBodyGyro-arCoeff()-Z,2"              "tBodyGyro-arCoeff()-Z,3"    "tBodyGyro-arCoeff()-Z,4"              "tBodyGyro-correlation()-X,Y"          "tBodyGyro-correlation()-X,Z"     
+
+
+"tBodyGyro-correlation()-Y,Z"          "tBodyGyroJerk-mean()-X"               "tBodyGyroJerk-mean()-Y"  "tBodyGyroJerk-mean()-Z"
+
+"tBodyGyroJerk-std()-X"                "tBodyGyroJerk-std()-Y"       "tBodyGyroJerk-std()-Z" 
+
+"tBodyGyroJerk-mad()-X"                "tBodyGyroJerk-mad()-Y"       "tBodyGyroJerk-mad()-Z"                
+
+"tBodyGyroJerk-max()-X"                "tBodyGyroJerk-max()-Y"      "tBodyGyroJerk-max()-Z"                
+
+"tBodyGyroJerk-min()-X"                "tBodyGyroJerk-min()-Y"       "tBodyGyroJerk-min()-Z"                
+
+"tBodyGyroJerk-sma()" 
+
+"tBodyGyroJerk-energy()-X"      "tBodyGyroJerk-energy()-Y"             "tBodyGyroJerk-energy()-Z"             
+
+"tBodyGyroJerk-iqr()-X"         "tBodyGyroJerk-iqr()-Y"                "tBodyGyroJerk-iqr()-Z"                
+
+"tBodyGyroJerk-entropy()-X"     "tBodyGyroJerk-entropy()-Y"            "tBodyGyroJerk-entropy()-Z"          
+
+"tBodyGyroJerk-arCoeff()-X,1"    "tBodyGyroJerk-arCoeff()-X,2"          "tBodyGyroJerk-arCoeff()-X,3"          "tBodyGyroJerk-arCoeff()-X,4"    "tBodyGyroJerk-arCoeff()-Y,1"          "tBodyGyroJerk-arCoeff()-Y,2"          "tBodyGyroJerk-arCoeff()-Y,3"    "tBodyGyroJerk-arCoeff()-Y,4"          "tBodyGyroJerk-arCoeff()-Z,1"          "tBodyGyroJerk-arCoeff()-Z,2"    "tBodyGyroJerk-arCoeff()-Z,3"          "tBodyGyroJerk-arCoeff()-Z,4"          
+
+"tBodyGyroJerk-correlation()-X,Y"  "tBodyGyroJerk-correlation()-X,Z"      "tBodyGyroJerk-correlation()-Y,Z" 
+
+"tBodyAccMag-mean()" 
+
+"tBodyAccMag-std()" 
+
+"tBodyAccMag-mad()"
+
+"tBodyAccMag-max()" 
+
+"tBodyAccMag-min()" 
+
+"tBodyAccMag-sma()"
+
+"tBodyAccMag-energy()"
+
+"tBodyAccMag-iqr()" 
+"tBodyAccMag-entropy()"
+
+"tBodyAccMag-arCoeff()1"   "tBodyAccMag-arCoeff()2"               "tBodyAccMag-arCoeff()3"               "tBodyAccMag-arCoeff()4" 
+
+ "tGravityAccMag-mean()"
+ 
+ "tGravityAccMag-std()" 
+ 
+ "tGravityAccMag-mad()"  
+ 
+"tGravityAccMag-max()"
+
+"tGravityAccMag-min()" 
+
+"tGravityAccMag-sma()" 
+
+"tGravityAccMag-energy()" 
+
+"tGravityAccMag-iqr()"
+
+"tGravityAccMag-entropy()" 
+
+"tGravityAccMag-arCoeff()1"            "tGravityAccMag-arCoeff()2"            "tGravityAccMag-arCoeff()3"    "tGravityAccMag-arCoeff()4" 
+
+"tBodyAccJerkMag-mean()"
+
+"tBodyAccJerkMag-std()" 
+
+
+"tBodyAccJerkMag-mad()"
+
+"tBodyAccJerkMag-max()"
+
+"tBodyAccJerkMag-min()"
+
+"tBodyAccJerkMag-sma()" 
+
+"tBodyAccJerkMag-energy()"
+
+"tBodyAccJerkMag-iqr()"
+
+"tBodyAccJerkMag-entropy()"
+
+"tBodyAccJerkMag-arCoeff()1"           "tBodyAccJerkMag-arCoeff()2"          
+[238] "tBodyAccJerkMag-arCoeff()3"           "tBodyAccJerkMag-arCoeff()4"
+
+"tBodyGyroMag-mean()"  
+
+
+"tBodyGyroMag-std()"
+
+"tBodyGyroMag-mad()"
+
+"tBodyGyroMag-max()"
+
+"tBodyGyroMag-min()"
+
+"tBodyGyroMag-sma()"
+
+"tBodyGyroMag-energy()" 
+
+
+"tBodyGyroMag-iqr()"
+
+"tBodyGyroMag-entropy()"
+
+"tBodyGyroMag-arCoeff()1"           "tBodyGyroMag-arCoeff()2"              "tBodyGyroMag-arCoeff()3"              "tBodyGyroMag-arCoeff()4" 
+
+
+ "tBodyGyroJerkMag-mean()"
+ 
+ "tBodyGyroJerkMag-std()"
+ 
+ "tBodyGyroJerkMag-mad()" 
+ 
+"tBodyGyroJerkMag-max()"
+
+"tBodyGyroJerkMag-min()"
+
+"tBodyGyroJerkMag-sma()" 
+
+"tBodyGyroJerkMag-energy()"            "tBodyGyroJerkMag-iqr()"               "tBodyGyroJerkMag-entropy()"          
 [262] "tBodyGyroJerkMag-arCoeff()1"          "tBodyGyroJerkMag-arCoeff()2"          "tBodyGyroJerkMag-arCoeff()3"         
 [265] "tBodyGyroJerkMag-arCoeff()4"          "fBodyAcc-mean()-X"                    "fBodyAcc-mean()-Y"                   
 [268] "fBodyAcc-mean()-Z"                    "fBodyAcc-std()-X"                     "fBodyAcc-std()-Y"                    

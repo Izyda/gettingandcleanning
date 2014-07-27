@@ -54,10 +54,13 @@ change<-melt(pol,id=c("subject","activity"),measure.vars=dobre)
 write.table(change, file="date.txt")
 install.packages("reshape2")
 library(reshape2)
-i=22
 t=c()
-for (i in 1:length(kolejne)){
+t <- dcast(change, subject + activity ~ kolejne[1] , mean)
+for (i in 2:length(kolejne)){
 tidied <- dcast(change, subject + activity ~ kolejne[i] , mean)
-t<-list(t,tidied)
+t<-cbind(t,tidied[,3])
 }
-write.table(t, file="end3.txt")
+qwe<-colnames(t)
+qwe[4:length(qwe)]=kolejne[2:length(kolejne)]
+colnames(t)<-qwe
+write.table(t, file="end.txt")
