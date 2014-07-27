@@ -1,6 +1,6 @@
 gettingandcleanning
 ===================
-
+##About the program
 This is repository for getting and cleaning course of coursera.org
 
 Program run_analisys.R is the solution for the problem from Project Assigment. 
@@ -12,3 +12,5 @@ This program:
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+You can find the solution in file end.txt. 
